@@ -1,0 +1,171 @@
+//FOOTER
+@media (min-width: 768px) {
+    #footer {
+        display: grid;
+        grid-template-areas:
+            "descargaApp descargaApp"
+            "tituloFormulario seguinosRedes"
+            "formularioEmail rrss";
+        grid-template-rows: auto;
+        grid-template-columns: 50%;
+        row-gap: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #footer {
+        display: grid;
+        grid-template-areas:
+            "descargaApp tituloFormulario seguinosRedes"
+            "descargaApp formularioEmail rrss";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+div#descargaApp {
+    grid-area: descargaApp;
+}
+
+ul#botonesAplicacion {
+    grid-area: botonesAplicacion;
+}
+
+h4 {
+    &#tituloDescargaApp {
+        grid-area: tituloDescargaApp;
+    }
+
+    &#tituloFormulario {
+        grid-area: tituloFormulario;
+    }
+
+    &#seguinosRedes {
+        grid-area: seguinosRedes;
+    }
+}
+
+div#formularioEmail {
+    grid-area: formularioEmail;
+}
+
+ul#rrss {
+    grid-area: rrss;
+}
+
+
+//HISTORIA DE LA F1
+@media (min-width: 768px) {
+    #grilla {
+        display: grid;
+        grid-template-areas:
+            "titulo titulo"
+            "imagen parrafo";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 20px;
+        row-gap: 15px;
+    }
+}
+
+h2#titulo {
+    grid-area: titulo;
+}
+
+img#imagen {
+    grid-area: imagen;
+}
+
+p#parrafo {
+    grid-area: parrafo;
+}
+
+@media (min-width: 768px) {
+    #conteiner {
+        display: grid;
+        grid-template-areas:
+            "primerasCarreras primerasCarreras"
+            "primeraCarreraFoto desarrolloCarreras";
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 3fr;
+        column-gap: 20px;
+        row-gap: 5px;
+    }
+}
+
+h3#primerasCarreras {
+    grid-area: primerasCarreras;
+}
+
+p#desarrolloCarreras {
+    grid-area: desarrolloCarreras;
+}
+
+img#primeraCarreraFoto {
+    grid-area: primeraCarreraFoto;
+}
+
+
+//TEMPORADA 2023
+//campeonato pilotos
+@media (max-width: 768px) {
+    .nombrePiloto {
+        display: none;
+    }
+}
+
+//campeonato escuderias
+@media (max-width: 768px) {
+    .auto2023 {
+        display: none;
+    }
+    .pilotosEscuderia {
+        display: none;
+    }
+}
+
+//TEMPORADA 2024
+//calendario 
+@media (max-width: 1023px) {
+    .ubicacionTabla {
+        display: none;
+    }
+
+    .imgTabla {
+        width: 75px;
+    }
+
+    .filaTablaCalendario {
+        height: 110px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .cartaEscuderia {
+        height: 155px;
+    }
+}
+
+//TIENDA
+@media (min-width: 840px) {
+    .pTiendaEquipos {
+        display: none;
+    }
+}
+
+@media (max-width: 840px) {
+    .imgTiendaEquipos {
+        display: none;
+    }
+
+    .pTiendaEquipos {
+        padding: 20px;
+        font-family: $fuentePrincipal;
+        font-weight: lighter;
+
+        &:hover {
+            background-color: $colorPrincipal;
+            color: white;
+        }
+    }
+}

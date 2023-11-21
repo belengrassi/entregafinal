@@ -1,0 +1,376 @@
+@mixin h2 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@mixin h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+@mixin h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@mixin h5 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@mixin p {
+    font-weight: lighter;
+    font-size: 15px
+}
+
+main {
+    h2 {
+        @include h2;
+        font-family: $fuentePrincipal;
+        padding-top: 30px;
+        margin-top: 5px;
+    }
+
+    h3 {
+        @include h3;
+        font-family: $fuentePrincipal;
+        padding-top: 10px;
+    }
+
+    h4 {
+        @include h4;
+        font-family: $fuentePrincipal;
+    }
+
+    h5 {
+        @include h5;
+        font-family: $fuentePrincipal;
+    }
+
+    p {
+        font-family: $fuenteParrafos;
+        @include p;
+    }
+}
+
+//INICIO
+.carousel {
+    margin-top: 20px;
+}
+
+.mainInicio {
+    margin: 0 10px 0 10px;
+    padding: 0 10px 0 10px;
+}
+
+.card-img-top-neumatico {
+    width: 115px;
+    height: 110px;
+    align-self: center;
+    padding-top: 7px;
+}
+
+.neumaticos {
+    text-align: center;
+    font-family: $fuentePrincipal;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.banderasCartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-text {
+    font-family: $fuenteParrafos;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.halo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.volantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+//HISTORIA DE LA F1
+.mainHistoria {
+    margin: 20px;
+}
+
+.aleron {
+    width: 300px;
+    height: 200px;
+}
+
+.motor {
+    width: 300px;
+    height: 200px;
+}
+
+.imagen {
+    width: 345px;
+    height: auto;
+}
+
+.introVideo {
+    font-weight: bold;
+}
+
+.alerones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.motores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.primeraFoto {
+    width: 340px;
+    height: 250px;
+}
+
+
+//TEMPORADA 2023
+//campeonato pilotos
+.cardPilotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.tablaCampeonatoPilotos {
+    margin: 0 50px 20px 50px;
+    border-radius: 3px;
+}
+
+.puesto {
+    font-weight: bold;
+}
+
+.tablaCampeonatoPilotos tr:hover td {
+    background-color: rgba(220, 22, 22, 0.863);
+    color: white;
+}
+
+//campeonato escuderias
+.tablaCampeonatoEscuderias {
+    margin: 0 50px 20px 50px;
+}
+
+.tablaCampeonatoEscuderias tr:hover td {
+    background-color: rgba(220, 22, 22, 0.863);
+    color: white;
+}
+
+.puntosEscuderia {
+    text-align: end;
+}
+
+.autoLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.nombreEscuderia {
+    font-weight: bold;
+}
+
+.auto2023 {
+    width: 150px;
+    height: auto;
+    transition: all 1.3s;
+}
+
+.auto2023:hover {
+    width: 500px; 
+    height: auto;
+    transition: all 1.3s;
+}
+
+//TEMPORADA 2024
+.mainTemporada2024 {
+    margin: 0 30px;
+}
+
+//calendario
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.encabezadoTabla {
+    border: 1px solid black;
+    background-color: $colorPrincipal;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $fuentePrincipal;
+    font-size: 20px;
+}
+
+.contenidoTabla {
+    border: 1px solid black;
+    color: black;
+    font-family: $fuentePrincipal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.imgTabla {
+    width: 100px;
+}
+
+.mapaCircuito {
+    width: 200px;
+    height: 110px;
+}
+
+//escuderias
+.escuderiasCartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: $fuentePrincipal;
+    font-weight: bold;
+}
+
+.infoEscuderia {
+    font-size: 14px;
+    font-family: $fuenteParrafos;
+    font-weight: lighter;
+}
+
+//pilotos
+.pilotosCartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardPiloto {
+    margin-bottom: 20px;
+}
+
+.piloto {
+    text-align: center;
+    font-size: 23px;
+}
+
+.infoPilotos {
+    font-family: $fuenteParrafos;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+//TIENDA
+.mainTienda {
+    margin: 20px;
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.btn {
+    color: black;
+    border-color: black;
+
+    &:hover {
+        color: white;
+        background-color: $colorPrincipal;
+        border-color: $colorPrincipal;
+    }
+}
+
+
+.tienda {
+    ul {
+        padding: 20px;
+        text-align: center;
+        border-bottom: 1px solid black;
+
+        li {
+            display: inline;
+            padding: 20px;
+            list-style-type: none;
+            font-family: $fuentePrincipal;
+
+            &:hover {
+                color: $colorPrincipal;
+            }
+        }
+    }
+}
+
+.tiendaEquipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+
+    li {
+        list-style-type: none;
+    }
+}
+
+.h3Tienda {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.btnTienda {
+    color: white;
+    background-color: $colorPrincipal;
+}
+
+.tiendaCartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cardTienda {
+    margin-top: 20px;
+}
+
+.imgTiendaEquipos {
+    height: 100px;
+    width: auto;
+    transition: all 1.3s;
+}
+
+.imgTiendaEquipos:hover {
+    height: 150px;
+    width: auto;
+    transition: all 1.3s;
+}

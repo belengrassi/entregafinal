@@ -1,0 +1,79 @@
+//FOOTER
+
+@mixin a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+footer {
+    background-color: $colorPrincipal;
+    border-top: 1px solid black;
+
+    h4 {
+        font-family: $fuentePrincipal;
+        font-size: 17px;
+        color: black;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    button {
+        background-color: white;
+        width: auto;
+        height: auto;
+        border-style: none;
+        margin: 0 7px 0 7px;
+        border-radius: 3px;
+
+        a {
+            @include a;
+        }
+    }
+
+    .divsFooter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 15px 10px 15px;
+    }
+}
+
+.google {
+    width: 30px;
+}
+
+.apple {
+    width: 47px;
+}
+
+.redesSociales {
+    width: 30px;
+    border-radius: 10px;
+}
+
+.oculto {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+.submit {
+    background-color: white;
+    border: 0.75px solid black;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textoRedesSociales {
+    display: hidden;
+}
+

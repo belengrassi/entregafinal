@@ -1,0 +1,572 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(202, 0, 0);
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+}
+header a h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+header a img {
+  width: 80px;
+}
+
+.fuenteMen {
+  font-size: 15px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+}
+.fuenteMen a:hover {
+  color: white;
+}
+
+footer {
+  background-color: rgb(202, 0, 0);
+  border-top: 1px solid black;
+}
+footer h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  color: black;
+  padding: 5px;
+  font-weight: bold;
+}
+footer button {
+  background-color: white;
+  width: auto;
+  height: auto;
+  border-style: none;
+  margin: 0 7px 0 7px;
+  border-radius: 3px;
+}
+footer button a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+footer .divsFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px 10px 15px;
+}
+
+.google {
+  width: 30px;
+}
+
+.apple {
+  width: 47px;
+}
+
+.redesSociales {
+  width: 30px;
+  border-radius: 10px;
+}
+
+.oculto {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.submit {
+  background-color: white;
+  border: 0.75px solid black;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textoRedesSociales {
+  display: hidden;
+}
+
+main h2 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 30px;
+  margin-top: 5px;
+}
+main h3 {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 10px;
+}
+main h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main h5 {
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.mainInicio {
+  margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
+}
+
+.card-img-top-neumatico {
+  width: 115px;
+  height: 110px;
+  align-self: center;
+  padding-top: 7px;
+}
+
+.neumaticos {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.banderasCartas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.halo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.volantes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mainHistoria {
+  margin: 20px;
+}
+
+.aleron {
+  width: 300px;
+  height: 200px;
+}
+
+.motor {
+  width: 300px;
+  height: 200px;
+}
+
+.imagen {
+  width: 345px;
+  height: auto;
+}
+
+.introVideo {
+  font-weight: bold;
+}
+
+.alerones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.motores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.primeraFoto {
+  width: 340px;
+  height: 250px;
+}
+
+.cardPilotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.tablaCampeonatoPilotos {
+  margin: 0 50px 20px 50px;
+  border-radius: 3px;
+}
+
+.puesto {
+  font-weight: bold;
+}
+
+.tablaCampeonatoPilotos tr:hover td {
+  background-color: rgba(220, 22, 22, 0.863);
+  color: white;
+}
+
+.tablaCampeonatoEscuderias {
+  margin: 0 50px 20px 50px;
+}
+
+.tablaCampeonatoEscuderias tr:hover td {
+  background-color: rgba(220, 22, 22, 0.863);
+  color: white;
+}
+
+.puntosEscuderia {
+  text-align: end;
+}
+
+.autoLogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.nombreEscuderia {
+  font-weight: bold;
+}
+
+.auto2023 {
+  width: 150px;
+  height: auto;
+  transition: all 1.3s;
+}
+
+.auto2023:hover {
+  width: 500px;
+  height: auto;
+  transition: all 1.3s;
+}
+
+.mainTemporada2024 {
+  margin: 0 30px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.encabezadoTabla {
+  border: 1px solid black;
+  background-color: rgb(202, 0, 0);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.contenidoTabla {
+  border: 1px solid black;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.imgTabla {
+  width: 100px;
+}
+
+.mapaCircuito {
+  width: 200px;
+  height: 110px;
+}
+
+.escuderiasCartas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-title {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.infoEscuderia {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.pilotosCartas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardPiloto {
+  margin-bottom: 20px;
+}
+
+.piloto {
+  text-align: center;
+  font-size: 23px;
+}
+
+.infoPilotos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.mainTienda {
+  margin: 20px;
+}
+
+.searchDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.btn {
+  color: black;
+  border-color: black;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(202, 0, 0);
+  border-color: rgb(202, 0, 0);
+}
+
+.tienda ul {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+.tienda ul li {
+  display: inline;
+  padding: 20px;
+  list-style-type: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.tienda ul li:hover {
+  color: rgb(202, 0, 0);
+}
+
+.tiendaEquipos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.tiendaEquipos li {
+  list-style-type: none;
+}
+
+.h3Tienda {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btnTienda {
+  color: white;
+  background-color: rgb(202, 0, 0);
+}
+
+.tiendaCartas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardTienda {
+  margin-top: 20px;
+}
+
+.imgTiendaEquipos {
+  height: 100px;
+  width: auto;
+  transition: all 1.3s;
+}
+
+.imgTiendaEquipos:hover {
+  height: 150px;
+  width: auto;
+  transition: all 1.3s;
+}
+
+@media (min-width: 768px) {
+  #footer {
+    display: grid;
+    grid-template-areas: "descargaApp descargaApp" "tituloFormulario seguinosRedes" "formularioEmail rrss";
+    grid-template-rows: auto;
+    grid-template-columns: 50%;
+    row-gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  #footer {
+    display: grid;
+    grid-template-areas: "descargaApp tituloFormulario seguinosRedes" "descargaApp formularioEmail rrss";
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+div#descargaApp {
+  grid-area: descargaApp;
+}
+
+ul#botonesAplicacion {
+  grid-area: botonesAplicacion;
+}
+
+h4#tituloDescargaApp {
+  grid-area: tituloDescargaApp;
+}
+h4#tituloFormulario {
+  grid-area: tituloFormulario;
+}
+h4#seguinosRedes {
+  grid-area: seguinosRedes;
+}
+
+div#formularioEmail {
+  grid-area: formularioEmail;
+}
+
+ul#rrss {
+  grid-area: rrss;
+}
+
+@media (min-width: 768px) {
+  #grilla {
+    display: grid;
+    grid-template-areas: "titulo titulo" "imagen parrafo";
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+    row-gap: 15px;
+  }
+}
+h2#titulo {
+  grid-area: titulo;
+}
+
+img#imagen {
+  grid-area: imagen;
+}
+
+p#parrafo {
+  grid-area: parrafo;
+}
+
+@media (min-width: 768px) {
+  #conteiner {
+    display: grid;
+    grid-template-areas: "primerasCarreras primerasCarreras" "primeraCarreraFoto desarrolloCarreras";
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 20px;
+    row-gap: 5px;
+  }
+}
+h3#primerasCarreras {
+  grid-area: primerasCarreras;
+}
+
+p#desarrolloCarreras {
+  grid-area: desarrolloCarreras;
+}
+
+img#primeraCarreraFoto {
+  grid-area: primeraCarreraFoto;
+}
+
+@media (max-width: 768px) {
+  .nombrePiloto {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .auto2023 {
+    display: none;
+  }
+  .pilotosEscuderia {
+    display: none;
+  }
+}
+@media (max-width: 1023px) {
+  .ubicacionTabla {
+    display: none;
+  }
+  .imgTabla {
+    width: 75px;
+  }
+  .filaTablaCalendario {
+    height: 110px;
+  }
+}
+@media (min-width: 1023px) {
+  .cartaEscuderia {
+    height: 155px;
+  }
+}
+@media (min-width: 840px) {
+  .pTiendaEquipos {
+    display: none;
+  }
+}
+@media (max-width: 840px) {
+  .imgTiendaEquipos {
+    display: none;
+  }
+  .pTiendaEquipos {
+    padding: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: lighter;
+  }
+  .pTiendaEquipos:hover {
+    background-color: rgb(202, 0, 0);
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
