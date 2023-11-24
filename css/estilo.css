@@ -438,7 +438,7 @@ table {
     display: grid;
     grid-template-areas: "descargaApp descargaApp" "tituloFormulario seguinosRedes" "formularioEmail rrss";
     grid-template-rows: auto;
-    grid-template-columns: 50%;
+    grid-template-columns: 1fr 1fr;
     row-gap: 10px;
   }
 }
